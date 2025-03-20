@@ -1,0 +1,41 @@
+name: lottie_onboarding_screen
+description: "A new Flutter project."
+homepage: https://github.com/badiniibrahim/flutter_onboarding_screen_adaptive
+repository: https://github.com/badiniibrahim/flutter_onboarding_screen_adaptive
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get_cli: ^1.9.1
+  get: ^4.7.2
+  animate_do: ^4.2.0
+  lottie: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+fonts:
+  - family: Gilroy
+    fonts:
+      - asset: assets/fonts/Gilroy-Bold.ttf
+        weight: 300
+      - asset: assets/fonts/Gilroy-Heavy.ttf
+        weight: 100
+      - asset: assets/fonts/Gilroy-Light.ttf
+        weight: 600
+      - asset: assets/fonts/Gilroy-Medium.ttf
+      - asset: assets/fonts/Gilroy-Regular.ttf
+        weight: 200
