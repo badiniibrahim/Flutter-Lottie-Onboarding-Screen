@@ -38,6 +38,7 @@ dependencies:
     path: ../
   get: ^4.7.2
   get_cli: ^1.9.1
+  mockito: ^5.4.5
 
 dev_dependencies:
   flutter_test:

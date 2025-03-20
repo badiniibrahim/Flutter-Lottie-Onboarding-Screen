@@ -30,7 +30,7 @@ import 'package:lottie/lottie.dart';
 ///   startText: "Start",
 /// );
 /// ```
-class OnboardingScreen extends StatefulWidget {
+class LottieOnboardingScreen extends StatefulWidget {
   /// List of onboarding pages containing title, subtitle, description, and animation.
   final List<Map<String, dynamic>> pages;
 
@@ -70,7 +70,7 @@ class OnboardingScreen extends StatefulWidget {
   // Primary color used for various UI elements.
   final Color primaryColor;
 
-  const OnboardingScreen({
+  const LottieOnboardingScreen({
     super.key,
     required this.pages,
     required this.onSkip,
@@ -95,10 +95,10 @@ class OnboardingScreen extends StatefulWidget {
   });
 
   @override
-  State<OnboardingScreen> createState() => _OnboardingScreenState();
+  State<LottieOnboardingScreen> createState() => _LottieOnboardingScreenState();
 }
 
-class _OnboardingScreenState extends State<OnboardingScreen>
+class _LottieOnboardingScreenState extends State<LottieOnboardingScreen>
     with SingleTickerProviderStateMixin {
   final PageController _pageController = PageController();
   late AnimationController _animationController;

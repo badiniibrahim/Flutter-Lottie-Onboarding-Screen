@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:lottie_onboarding_screen/main.dart';
+import 'package:lottie_onboarding_screen/lottie_onboarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-        home: OnboardingScreen(
+        home: LottieOnboardingScreen(
       pages: [
         {
           'title': 'Plan Your Dream trip',
@@ -39,12 +39,8 @@ class MyApp extends StatelessWidget {
           'gradient': [Color(0xFFBBF7D0), Color(0xFFFDE68A)],
         },
       ],
-      onSkip: () {
-        print("onSkip");
-      },
-      onFinish: () {
-        print("onFinish");
-      },
+      onSkip: () {},
+      onFinish: () {},
       indicatorActiveColor: Color(0xFF70B9BE),
       indicatorInactiveColor: Colors.grey,
       skipText: "Skip",

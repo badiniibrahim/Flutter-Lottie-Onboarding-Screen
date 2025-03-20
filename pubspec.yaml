@@ -1,9 +1,9 @@
 name: lottie_onboarding_screen
-description: "A new Flutter project."
-homepage: https://github.com/badiniibrahim/flutter_onboarding_screen_adaptive
-repository: https://github.com/badiniibrahim/flutter_onboarding_screen_adaptive
+description: "🚀 A customizable Flutter package for creating interactive and animated onboarding screens with Lottie"
+homepage: https://github.com/badiniibrahim/Flutter-Lottie-Onboarding-Screen
+repository: https://github.com/badiniibrahim/Flutter-Lottie-Onboarding-Screen
 
-version: 1.0.0+1
+version: 1.0.0
 
 environment:
   sdk: ^3.6.1
@@ -17,6 +17,7 @@ dependencies:
   get: ^4.7.2
   animate_do: ^4.2.0
   lottie: ^3.3.0
+  mockito: ^5.4.5
 
 dev_dependencies:
   flutter_test:
